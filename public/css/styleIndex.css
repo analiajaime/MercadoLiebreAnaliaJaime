@@ -98,7 +98,8 @@ ul a{
 .productos img{                                                           
     width: 15rem;                                                           
     height: 15rem;                                                          
-    margin: 10px;                                                           
+    margin: 10px;   
+    transition: transform 0.3s ease-in-out;                                                        
 }
 
 .price{
@@ -119,10 +120,12 @@ ul a{
 
 .box-article{
     border-top: 1px solid #ebebeb;                                        
-    padding: 0 20px 20px 20px;                                              
+    padding: 0 20px 20px 20px;
+    transition: all 0.3s ease-in-out;                                               
 }
 
 .productos{
+    transition: all 0.3s ease-in-out; 
     text-align: center;                                                     
     margin: 0 0.5rem;                                                       
     width: 250px;                                                           
@@ -151,6 +154,29 @@ ul a{
     display: flex;                                                          
     flex-wrap: wrap;                                                        
     justify-content: space-evenly;                                              
+}
+
+.productos:hover img {
+    transform: scale(1.05); 
+}
+
+.productos:hover .box-article {
+    top: 0; 
+    opacity: 1; 
+}
+
+
+.price, .discount, .description {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(10px);
+}
+
+.productos:hover .price, .productos:hover .discount, .productos:hover .description {
+    transform: translateY(0);
+}
+
+.search-button:hover {
+    background-color: #45a049;
 }
 
 footer{

@@ -74,11 +74,6 @@ ul a{
     border-radius: 0.6rem;
 }
 
-.menssage-card{
-    text-align: center;                                                     
-    margin: 0.6rem;                                                         
-}
-
 .header-log-bar{
     display: flex;                                                          
     flex-wrap: wrap;                                                       
@@ -94,64 +89,10 @@ ul a{
     font-size: 1.8vh;                                                       
 }
 
-
-.art-product img{                                                           
-    width: 15rem;                                                           
-    height: 15rem;                                                          
-    margin: 10px;                                                           
+.search-button:hover {
+    background-color: #45a049;
 }
 
-.price{
-    font-size: 2.5vh;                                                       
-}
-
-.discount{
-    font-size: 2.5vh;                                                       
-    color: #39b54a;                                                       
-    padding-bottom: 0.6rem;                                                 
-}
-
-.description{
-    font-size: 16px;                                                        
-    text-align: start;                                                      
-}
-
-
-.box-article{
-    border-top: 1px solid #ebebeb;                                        
-    padding: 0 20px 20px 20px;                                              
-}
-
-.art-product{
-    text-align: center;                                                     
-    margin: 0 0.5rem;                                                       
-    width: 250px;                                                           
-    background-color: #ffff;                                              
-}
-
-
-.fa-truck{
-    color: #39b54a;                                                       
-}
-
-.icon-truck{
-    display: block;                                                         
-    padding: 0.3rem;                                                        
-    width: 1.9rem;                                                          
-    height: 1.9rem;                                                         
-    border: 1px solid #39b54a;                                            
-    background-color: #ffff;                                              
-    border-radius: 50%;                                                     
-    position: relative;                                                     
-    left: 185px;                                                            
-    bottom: 15px;                                                           
-}
-
-.based-on-pov, .section-offerts{
-    display: flex;                                                          
-    flex-wrap: wrap;                                                        
-    justify-content: space-evenly;                                              
-}
 
 footer{
     background-color: #ffff;                                              

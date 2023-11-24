@@ -94,7 +94,9 @@ ul a{
     font-size: 1.8vh;                                                       
 }
 
-
+.search-button:hover {
+    background-color: #45a049;
+}
 
 footer{
     background-color: #ffff;                                              
